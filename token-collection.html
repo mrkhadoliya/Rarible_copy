@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Bootstap css  -->
+        <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+        <!-- stylesheet css all pages -->
+        <link rel="stylesheet" href="./assets/css/stylesheet.css" />
+
+        <!-- CROUSEL SLIDER CSS STYLE -->
+        <link rel="stylesheet" href="./assets/css/carousel.css" />
+        <link rel="stylesheet" href="./assets/css/owl.carousel.css" />
+
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+        <!-- stylesheet css all pages end -->
+
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap" rel="stylesheet" />
+        <!-- google fonts end -->
+
+        <title>Rarible Copy NFT || Home Page</title>
+    </head>
+    <body>
+        <section class="main_section">
+            <div class="top_navbar sticky-top">
+                <div class="container-fluid px-4">
+                    <div class="row">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                            <nav class="navbar navbar-expand-lg navbar-light px-0">
+                                <a class="navbar-brand" href="index.html">
+                                    <h1 class="text-white m-0 text_gradient">Rarible</h1>
+                                </a>
+                                <form>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="search-icon">
+                                                <i class="fal fa-search"></i>
+                                            </span>
+                                        </div>
+                                        <input type="search" placeholder="Search...." aria-label="Search" class="form-control" />
+                                    </div>
+                                </form>
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="fas fa-bars text-white"></span>
+                                </button>
+
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="navbar-nav mr-auto">
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="">Explore</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">My Profile</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Following</a>
+                                        </li>
+                                        <li class="nav-item d-flex">
+                                            <a class="nav-link" href="#">Activity</a> &nbsp;
+                                            <span class="border-right"></span>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">How it Works</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Community</a>
+                                        </li>
+                                    </ul>
+                                    <div class="my-2 my-lg-0">
+                                        <div class="d-md-flex d-block align-item-center">
+                                            <div class="create_btn2">
+                                                <button class="connect_wa_llets my-2 my-sm-0 mr-3">Create</button>
+                                                <button class="connect_wa_llets my-2 my-sm-0" data-toggle="modal" data-target="#exampleModal">Sign in</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section class="my_items_main_area py-4">
+                <div class="container py-lg-5 py-md-5 py-sm-4 py-4">
+                    <div class="row">
+                        <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12">
+                            <div class="token_zoom_img text-center"> 
+                                 <div class="Scriptcontent">
+                                    <!-- Image Zoom HTML -->
+                                    <img class="img-fluid" id="myImg" src="./assets/img/slide10.jpg"  width="400px" height="400px"  alt="" />
+                    
+                                    <!-- The Modal -->
+                                    <div id="popImges" class="modalzoom">
+                                        <img class="modal-contentzoom" id="img01" />
+                                    </div>
+                                    <!-- End Image Zoom HTML -->
+                                     <script>
+                                        // Get the modal
+                                        var modalzoom = document.getElementById("popImges");
+                            
+                                        // Get the image and insert it inside the modal - use its "alt" text as a caption
+                                        var img = document.getElementById("myImg");
+                                        var modalImg = document.getElementById("img01");
+                                        var captionText = document.getElementById("caption");
+                                        img.onclick = function () {
+                                            modalzoom.style.display = "block";
+                                            modalImg.src = this.src;
+                                            modalImg.alt = this.alt;
+                                            captionText.innerHTML = this.alt;
+                                        };
+                            
+                                        // When the user clicks on <span> (x), close the modal
+                                        modalzoom.onclick = function () {
+                                            img01.className += " out";
+                                            setTimeout(function () {
+                                                modalzoom.style.display = "none";
+                                                img01.className = "modal-contentzoom";
+                                            }, 400);
+                                        };
+                                    </script>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12 order-md-0 order-first">
+                            <div class="zoom_activity">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="token_colle_heading">
+                                        <h4>Founder 1inch - Sergej Kunz </h4>
+                                    </div>
+                                    <div class="">
+                                        <a href="#" class="text-decoration-none bg_dark_light rounded-pill py-1 px-3">
+                                            <i class="fas fa-heart-circle"></i>&nbsp;<span>1</span>
+                                        </a>
+                                    </div>
+                                </div> 
+                                <div class="highest_bis">
+                                    <div class="text-muted"> Highest bid<span class="text_primary_1"> 0.1 WETH </span></div>
+                                    <div class="pt-3">
+                                        <span>This is exclusive NFT with 1inch co-founder Sergey Kunz’s personal signature.</span>
+                                    </div>
+                                    <div class="">
+                                        <span> NFT marketplace Rarible and Rotary together created a unique collection of famous people to support charity!</span>
+                                    </div>
+                                </div>
+                                <div class="category_btns pt-4"> 
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="create">
+                                                <span class="">Create</span>
+                                                <div class="d-flex align-items-center">
+                                                    <div class="img_nft">
+                                                        <a href="#" class="text-decoration-none">
+                                                            <img src="./assets/img/slide5.png" class="rounded-pill" width="50px" height="50px" alt=""> &nbsp;
+                                                        </a>
+                                                    </div>
+                                                    <div class="img_nft_tittle">
+                                                        <a href="#" class="text-decoration-none">
+                                                            <span class="rotaryNFT">RotaryNFT</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="create">
+                                                <span class="text-muted">Collection</span>
+                                                <div class="d-flex align-items-center">
+                                                    <div class="img_nft">
+                                                        <a href="#" class="text-decoration-none">
+                                                            <img src="./assets/img/slide5.png" class="rounded-pill" width="50px" height="50px" alt=""> &nbsp;
+                                                        </a>
+                                                    </div>
+                                                    <div class="img_nft_tittle">
+                                                        <a href="#" class="text-decoration-none">
+                                                            <span class="rotaryNFT">Rarible Singles</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="unlock_btns py-3">
+                                    <Button class="btn connect_wa_llets w-100 disabled"><i class="fal fa-lock"></i> &nbsp; Unlockable content included </Button>
+                                </div>
+                                <hr>
+                                <div class="tab_colle_1 mt-3">
+                                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                            <a class="nav-link active" id="pills-sale-tab" data-toggle="pill" href="#pills-sale" role="tab" aria-controls="pills-sale" aria-selected="true">Bids</a>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <a class="nav-link" id="pills-Owned-tab" data-toggle="pill" href="#pills-Owned" role="tab" aria-controls="pills-Owned" aria-selected="false">Details</a>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <a class="nav-link" id="pills-Created-tab" data-toggle="pill" href="#pills-Created" role="tab" aria-controls="pills-Created" aria-selected="false">History</a>
+                                        </li>
+                                    </ul>
+                                    
+                                    <div class="tab-content" id="pills-tabContent">
+                                        <div class="tab-pane fade show active" id="pills-sale" role="tabpanel" aria-labelledby="pills-sale-tab">
+                                            <div class="bids_tabs_box">
+                                                <div class="list_col_box py-2 position-relative my-2"> 
+                                                    <div class="d-flex align-items-center"> 
+                                                        <div class="user_imgs">
+                                                            <img src="./assets/img/slide-13.png" class="rounded-pill border" width="50px" height="50px" alt="">
+                                                        </div> 
+                                                        <div class="user_details ml-2"> 
+                                                            <h6 class="font-weight-normal hash_id_user d-flex">
+                                                                <span>0.1 WETH</span> &nbsp; by &nbsp;<a href="#" class="text-decoration-none by_is" >0xE5D32Ce8785E6E968AE4bA80FC2C5B45cD3C3b0E</a>
+                                                            </h6>
+                                                            <div class="font-weight-normal user_time_date">
+                                                                <small class="dates text-muted">18 hours ago </small>
+                                                            </div>
+                                                        </div> 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                        <div class="tab-pane fade" id="pills-Owned" role="tabpanel" aria-labelledby="pills-Owned-tab">
+                                            <div class="details_tabs_box">
+                                                <div class="list_col_box py-2 position-relative my-2">
+                                                    <div class="">
+                                                        <span>Owner</span>
+                                                    </div>
+                                                    <div class="d-flex align-items-center"> 
+                                                        <div class="user_imgs">
+                                                            <img src="./assets/img/slide-13.png" class="rounded-pill border" width="50px" height="50px" alt="">
+                                                        </div> 
+                                                        <div class="user_details ml-2"> 
+                                                            <h6 class="font-weight-normal hash_id_user d-flex">
+                                                                <a href="#" class="text-decoration-none" >RotaryNFT</a>
+                                                            </h6> 
+                                                        </div> 
+                                                    </div>
+                                                </div>
+                                                <div class="list_col_box py-2 position-relative my-2">
+                                                    <div class="">
+                                                        <span>Blockchain</span>
+                                                    </div>
+                                                    <div class="d-flex align-items-center"> 
+                                                        <div class="user_imgs">
+                                                            <img src="./assets/img/slide-13.png" class="rounded-pill border" width="50px" height="50px" alt="">
+                                                        </div> 
+                                                        <div class="user_details ml-2"> 
+                                                            <h6 class="font-weight-normal hash_id_user d-flex">
+                                                                <a href="#" class="text-decoration-none" >Ethereum</a>
+                                                            </h6> 
+                                                        </div> 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="pills-Created" role="tabpanel" aria-labelledby="pills-Created-tab">
+                                            <div class="history_tabs_">
+                                                <div class="list_col_box py-2 position-relative my-2"> 
+                                                    <div class="d-flex align-items-center"> 
+                                                        <div class="user_imgs">
+                                                            <img src="./assets/img/slide-13.png" class="rounded-pill border" width="50px" height="50px" alt="">
+                                                        </div> 
+                                                        <div class="user_details ml-2"> 
+                                                            <h6 class="font-weight-normal hash_id_user d-flex">
+                                                                Bid &nbsp; <span class="text_primary_2">0.1 WETH</span>
+                                                            </h6>
+                                                            <div class="font-weight-normal user_time_date d-flex">
+                                                                By &nbsp;<a href="#" class="text-decoration-none by_is" >0xE5D32Ce8785E6E968AE4bA80FC2C5B45cD3C3b0E</a><span class="dates text-muted">18 hours ago </span>
+                                                            </div>
+                                                        </div> 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="Highest_bid_time position-relative pt-4"> 
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="create">
+                                                <div class="font-weight-normal user_time_date d-flex">
+                                                    Highest bid by &nbsp;<a href="#" class="text-decoration-none by_is" >0xE5D32Ce8785E6E968AE4bA80FC2C5B45cD3C3b0E</a>
+                                                </div>
+                                                <div class="d-flex align-items-center">
+                                                    <div class="img_nft">
+                                                        <a href="#" class="text-decoration-none">
+                                                            <img src="./assets/img/slide5.png" class="rounded-pill" width="50px" height="50px" alt=""> &nbsp;
+                                                        </a>
+                                                    </div>
+                                                    <div class="img_nft_tittle"> 
+                                                        <h6>0.1 WETH </h6>
+                                                        <div class="rotaryNFT">~$442</div> 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="create">
+                                                <span class="text-muted">Auction ends in </span>
+                                                <div class="mt-3 d-flex align-items-center align-items-center justify-content-between"> 
+                                                    <span>05 <br> <small>Days</small> </span>
+                                                    <span>21 <br> <small>Hours</small> </span>
+                                                    <span>06 <br> <small>Minutes</small> </span>
+                                                    <span>55 <br> <small>Seconds</small> </span> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="unlock_btns py-3">
+                                        <Button class="connect_wa_llets w-100"> Place a Bids </Button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- EXPLORE SECTION END HERE  -->
+            <div class="container-fluid px-3">
+                <hr />
+            </div>
+            <!-- FOOTER SECTION START HERE -->
+
+            <footer class="py-md-3">
+                <div class="container py-lg-5 py-4">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                            <div class="footer_logo">
+                                <div class="heade_ing">
+                                    <h2 class="text_gradient">Rarible Copy</h2>
+                                </div>
+                                <ul class="list-unstyled">
+                                    <li class="py-2">
+                                        <a href="http://" class="text-decoration-none">Whitepaper</a>
+                                    </li>
+                                    <li class="py-2">
+                                        <a href="http://" class="text-decoration-none">Disclaimer</a>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled d-flex">
+                                    <li class="mx-2">
+                                        <a class="" href="https://">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li class="mx-2">
+                                        <a class="" href="https://">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li class="mx-2">
+                                        <a class="" href="https://">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li class="mx-2">
+                                        <a class="" href="https://">
+                                            <i class="fab fa-linkedin-in"></i>
+                                        </a>
+                                    </li>
+                                    <li class="mx-2">
+                                        <a class="" href="https://">
+                                            <i class="fab fa-youtube"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-16 col-6">
+                            <div class="communi_heading">
+                                <h5 class="font-weight-normal pb-2">
+                                    Communication Links
+                                </h5>
+                                <ul class="list-unstyled">
+                                    <li class="py-2">
+                                        <a href="http://" class="text-decoration-none">Telegram</a>
+                                    </li>
+                                    <li class="py-2">
+                                        <a href="http://" class="text-decoration-none">Github</a>
+                                    </li>
+                                    <li class="py-2">
+                                        <a href="http://" class="text-decoration-none">Discode</a>
+                                    </li>
+                                    <li class="py-2">
+                                        <a href="http://" class="text-decoration-none">Support</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-4 col-sm-16 col-6">
+                            <div class="communi_heading">
+                                <h5 class="font-weight-normal pb-2">
+                                    NFT
+                                </h5>
+                                <ul class="list-unstyled">
+                                    <li class="py-2">
+                                        <a href="http://" class="text-decoration-none">My Items</a>
+                                    </li>
+                                    <li class="py-2">
+                                        <a href="http://" class="text-decoration-none">How it Works</a>
+                                    </li>
+                                    <li class="py-2">
+                                        <a href="http://" class="text-decoration-none">Community</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-16 col-6">
+                            <div class="communi_heading">
+                                <h5 class="font-weight-normal pb-2">
+                                    Subscribe to latest news
+                                </h5>
+                                <div class="subscribe_input">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Your e-mail address" />
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary" type="submit">Sign Up</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <small class="font-weight-normal">Latest news delivered right to your inbox! Your information will be kept confidential and we will not send spam.</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row border-top">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mt-4">
+                            <div class="text-center">
+                                <h6 class="font-weight-normal">Copyright © 2021 <a href="#" class="text-dwcoration-none text_gradient font-weight-bold">Rarible Copy</a> | All Rights Reserved</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </section>
+
+        <script src="./assets/js/jquery-3.5.1.slim.min.js"></script>
+        <script src="./assets/js/popper.min.js"></script>
+        <script src="./assets/js/bootstrap.min.js"></script>
+
+        <script src="./assets/js/owl.carousel.min.js"></script>
+        <script src="./assets/js/slider-one.js"></script>
+    </body>
+</html>
