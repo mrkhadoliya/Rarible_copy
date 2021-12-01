@@ -787,3 +787,11 @@ input[type='file'] {
     height: 100vh;
     padding: 30px;
 }
+
+.blog__item__pic img {
+    width: 237px;
+    height: 173px;
+    object-fit: cover;
+    min-width: 237px;
+    min-height: 173px;
+}

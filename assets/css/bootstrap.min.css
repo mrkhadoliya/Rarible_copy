@@ -6311,7 +6311,7 @@ button.bg-dark:hover {
     border-radius: 0.2rem !important;
 }
 .rounded {
-    border-radius: 0.25rem !important;
+    border-radius: 10px !important;
 }
 .rounded-top {
     border-top-left-radius: 0.25rem !important;
