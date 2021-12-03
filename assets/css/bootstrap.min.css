@@ -1621,7 +1621,7 @@ pre code {
 .table th {
     padding: 0.75rem;
     vertical-align: top;
-    border-top: 1px solid #dee2e6;
+    border-top: 1px solid #212136;
 }
 .table thead th {
     vertical-align: bottom;
@@ -1825,13 +1825,14 @@ pre code {
     border-color: #dee2e6;
 }
 .table-dark {
-    color: #fff;
-    background-color: #343a40;
+    color: #06e8fc;
+    background-color: #1d1d31;
+    border-radius: 10px;
 }
 .table-dark td,
 .table-dark th,
 .table-dark thead th {
-    border-color: #454d55;
+    border-color: #212136;
 }
 .table-dark.table-bordered {
     border: 0;
@@ -1840,8 +1841,8 @@ pre code {
     background-color: rgba(255, 255, 255, 0.05);
 }
 .table-dark.table-hover tbody tr:hover {
-    color: #fff;
-    background-color: rgba(255, 255, 255, 0.075);
+    color: #fe0291;
+    background-color: rgb(18 18 39);
 }
 @media (max-width: 575.98px) {
     .table-responsive-sm {

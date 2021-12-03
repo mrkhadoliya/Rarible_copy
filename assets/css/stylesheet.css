@@ -795,3 +795,9 @@ input[type='file'] {
     min-width: 237px;
     min-height: 173px;
 }
+.table_items_list {
+    background: #25253f;
+    padding: 7px;
+    border-radius: 12px;
+    border: 2px solid #05e8fc4a;
+}
